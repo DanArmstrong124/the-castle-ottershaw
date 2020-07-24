@@ -49,3 +49,23 @@ nav #thecastlelogo {
       height: 101px;
   }
 }
+
+/*LARGE MOBILE*/
+@media only screen and (max-width: 425px) {
+  .menu-bar {
+    position: absolute; 
+    top: 43px;
+    left: 0px;
+    font-size: 20px;
+  }
+  .menu-bar button span {
+      display: none;
+  }
+  .nav-bar {
+      height: 120px;
+  }
+  nav #thecastlelogo {
+      width: 150px;
+      height: 101px;
+  }
+}
