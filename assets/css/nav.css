@@ -7,6 +7,9 @@
 nav #thecastlelogo {
     width: 225px;
     height: 151.5px;
+    .menu-btn {
+        font-size: 16px;
+    }
 }
 
 
@@ -28,6 +31,9 @@ nav #thecastlelogo {
       width: 150px;
       height: 101px;
   }
+    .menu-btn {
+        font-size: 16px;
+    }
 }
 
 /*MEDIUM MOBILE*/
@@ -48,6 +54,9 @@ nav #thecastlelogo {
       width: 150px;
       height: 101px;
   }
+    .menu-btn {
+        font-size: 16px;
+    }
 }
 
 /*LARGE MOBILE*/
@@ -68,6 +77,9 @@ nav #thecastlelogo {
       width: 150px;
       height: 101px;
   }
+    .menu-btn {
+        font-size: 16px;
+    }
 }
 
 /*TABLET MOBILE*/
