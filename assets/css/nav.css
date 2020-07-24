@@ -9,7 +9,29 @@ nav #thecastlelogo {
     height: 151.5px;
 }
 
+
+/*SMALL PHONE*/
 @media only screen and (max-width: 320px) {
+  .menu-bar {
+    position: absolute; 
+    top: 43px;
+    left: 0px;
+    font-size: 20px;
+  }
+  .menu-bar button span {
+      display: none;
+  }
+  .nav-bar {
+      height: 120px;
+  }
+  nav #thecastlelogo {
+      width: 150px;
+      height: 101px;
+  }
+}
+
+/*MEDIUM MOBILE*/
+@media only screen and (max-width: 375px) {
   .menu-bar {
     position: absolute; 
     top: 43px;
