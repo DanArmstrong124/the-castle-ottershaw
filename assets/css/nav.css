@@ -74,7 +74,7 @@ nav #thecastlelogo {
 @media only screen and (max-width: 768px) {
     .menu-bar {
         position: absolute; 
-        top: 100px;
+        top: 75px;
         left: 30px;
     }
     nav #thecastlelogo {
@@ -86,5 +86,8 @@ nav #thecastlelogo {
     }
     .nav-bar {
       height: 180px;
+    }
+    .menu-btn {
+        font-size: 24px;
     }
 }
