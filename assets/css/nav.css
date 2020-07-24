@@ -69,3 +69,6 @@ nav #thecastlelogo {
       height: 101px;
   }
 }
+
+/*TABLET MOBILE*/
+@media only screen and (max-width: 768px) {}
