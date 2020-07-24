@@ -51,7 +51,7 @@ nav #thecastlelogo {
 }
 
 /*LARGE MOBILE*/
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 426px) {
   .menu-bar {
     position: absolute; 
     top: 43px;
@@ -71,4 +71,20 @@ nav #thecastlelogo {
 }
 
 /*TABLET MOBILE*/
-@media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 768px) {
+    .menu-bar {
+        position: absolute; 
+        top: 100px;
+        left: 30px;
+    }
+    nav #thecastlelogo {
+        width: 225px;
+        height: 151.5px;
+    }
+    .menu-bar button span {
+      display: block;
+    }
+    .nav-bar {
+      height: 180px;
+    }
+}
