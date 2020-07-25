@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/nav.css">
     <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
     <title>The Castle - Ottershaw - Menu</title>
   </head>
   <body>
@@ -56,8 +57,65 @@
     </section>
 
     <section>
-        <div class="menu">
-            MENU
+        <div class="menu tac cinzel">
+            <div style="margin: 15px; font-size: 36px;">Our Menu</div>
+        </div>
+        <!--MENU TITLES-->
+        <div class="card col-sm-12 tac">
+                <img class="card-img-top menu-image" src="assets/img/menu/pork.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title cinzel">Mains</h5>
+                    <p class="card-text cinzel">Here we have our selection of mains.</p>
+                    <a id="mainsMenuBtn" class="btn btn-primary cinzel" data-toggle="collapse" href="#mainsMenu" role="button" aria-expanded="false" aria-controls="mainsMenu" style="background-color: grey; border-color: black;"><i class="fa fa-hamburger" style="font-size: 20px; color: #e5cb7a"></i> View More <i class="fa fa-hamburger" style="font-size: 20px; color: #e5cb7a;"></i></a>
+                </div>
+            </div>
+
+        <!--MENU DESCRIPTIONS-->
+
+        <!--MAINS-->
+        <div class="collapse tac cinzel" id="mainsMenu">
+            <div class="card cinzel">
+                <div class="card-body row">
+                    <div class="meal-title col-sm-4">
+                        6oz Castle burger
+                    </div>
+                    <div class="meal-price col-sm-4">
+                        £15
+                    </div>
+                    <div class="meal-price col-sm-4">
+                        <a id="6ozcastleburgerBtn" class="btn btn-primary cinzel" data-toggle="collapse" href="#6ozcastleburger" role="button" aria-expanded="false" aria-controls="6ozcastleburger" style="background-color: grey; border-color: black;">Read More <i class="fa fa-arrow-circle-down"></i></a>
+                    </div>
+                    <div class="collapse tac cinzel" id="6ozcastleburger">
+                        <div class="card col-sm-12">
+                            <img class="card-img-top menu-image" src="assets/img/menu/pork.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">6oz Castle burger - £15</h5>
+                                <p class="card-text">cooked either medium or well done served with bacon, cheese, egg and fries</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body row">
+                    <div class="meal-title col-sm-4">  		
+                        Mushroom, halloumi and avocado stack <i class="fab fa-vuejs veg"></i>
+                    </div>
+                    <div class="meal-price col-sm-4">
+                        £13
+                    </div>
+                    <div class="meal-price col-sm-4">
+                        <a id="mhastackBtn" class="btn btn-primary cinzel" data-toggle="collapse" href="#mhastack" role="button" aria-expanded="false" aria-controls="mhastack" style="background-color: grey; border-color: black;">Read More <i class="fa fa-arrow-circle-down"></i></a>
+                    </div>
+                    <div class="collapse tac cinzel" id="mhastack">
+                        <div class="card col-sm-12">
+                            <img class="card-img-top menu-image" src="assets/img/menu/pork.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Mushroom, halloumi and avocado stack <i class="fab fa-vuejs veg"></i> - £13</h5>
+                                <p class="card-text">Served in a bun with houmous and red pesto served with fries.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
