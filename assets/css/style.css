@@ -84,15 +84,19 @@
 
 /* SMALL PHONE */
 @media only screen and (max-width: 320px) {
-    .welcome {
-    font-size: 18px;
-}
+        .welcome {
+        font-size: 18px;
+    }
 
-    .welcomesub {
-    font-size: 11px;
-}
+        .welcomesub {
+        font-size: 11px;
+    }
 
-    .welcomesubtwo {
-    font-size: 11px;
-}
+        .welcomesubtwo {
+        font-size: 11px;
+    }
+        .welcome-text-parr {
+        padding-top: 100px;
+        color: white;
+    }
 }
