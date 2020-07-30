@@ -73,7 +73,26 @@
     font-size: 19px;
 }
 
+.welcomesubtwo {
+    font-size: 16px;
+}
+
 .welcome-text-parr {
     padding-top: 170px;
     color: white;
+}
+
+/* SMALL PHONE */
+@media only screen and (max-width: 320px) {
+    .welcome {
+    font-size: 18px;
+}
+
+    .welcomesub {
+    font-size: 11px;
+}
+
+    .welcomesubtwo {
+    font-size: 11px;
+}
 }
