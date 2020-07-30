@@ -100,3 +100,15 @@
         color: white;
     }
 }
+
+@media only screen and (max-width: 375px) {
+        .welcome {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+        .welcome {
+        font-size: 26px;
+    }
+}
