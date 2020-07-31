@@ -24,6 +24,18 @@
     background-size: cover;
 }
 
+.img-drink-area {
+    background: url('../img/index/drink.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-gallery-area {
+    background: url('../img/index/gallery.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 @media only screen and (max-width: 320px) {
     .front-page-img {
         background: url('../img/index/frontpage.jpg'); 
