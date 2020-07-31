@@ -60,19 +60,22 @@
         background: url('../img/index/food.jpg');
         background-repeat: no-repeat;
         background-size: cover;
-        margin-left: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
     .img-drink-area {
         background: url('../img/index/food.jpg');
         background-repeat: no-repeat;
         background-size: cover;
-        margin-left: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
     .img-gallery-area {
         background: url('../img/index/food.jpg');
         background-repeat: no-repeat;
         background-size: cover;
-        margin-left: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 
 }
