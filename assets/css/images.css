@@ -7,6 +7,19 @@
     background-size: cover;
 }
 
+.img-box-setup {
+    height: 200px;
+    background-color: red;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.img-food-area {
+    background: url('../img/index/food.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 @media only screen and (max-width: 320px) {
     .front-page-img {
         background: url('../img/index/frontpage.jpg'); 

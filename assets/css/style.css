@@ -1,3 +1,7 @@
+.background-fade {
+    background-color: rgba(0, 0, 0, 0.80);
+}
+
 .cardo {
     font-family: 'Cardo', serif;
 }
