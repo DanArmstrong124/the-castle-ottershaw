@@ -49,6 +49,10 @@
     max-width: 150px;
 }
 
+.galleryimg {
+    color: red;
+}
+
 .button-boxes-padded {
     border: 1px solid #b49a69;
     margin-right: auto;
