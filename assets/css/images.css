@@ -7,6 +7,10 @@
     background-size: cover;
 }
 
+.front-page-img-cover {
+    height: 500px;
+}
+
 .img-box-setup {
     height: 200px;
     background-color: red;
@@ -28,5 +32,8 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+    }
+    .front-page-img-cover {
+        height: 340px;
     }
 }
