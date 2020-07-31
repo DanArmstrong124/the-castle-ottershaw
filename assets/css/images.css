@@ -83,7 +83,7 @@
     }
 }
 
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 767px) {
 
     .img-food-area {
         background: url('../img/index/food.jpg');
