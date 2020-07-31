@@ -1,0 +1,44 @@
+#gmap {
+    height: 500px;
+    width: 500px;
+}
+
+/* SMALL PHONE */
+@media only screen and (max-width: 320px) {
+    #gmap {
+        height: 300px;
+        width: 300px;
+    }
+}
+
+/* MEDIUM PHONE */
+@media only screen and (max-width: 375px) {
+    #gmap {
+        height: 300px;
+        width: 300px;
+    }
+}
+
+/* LARGE PHONE */
+@media only screen and (max-width: 425px) {
+    #gmap {
+        height: 300px;
+        width: 300px;
+    }
+}
+
+/* TABLET */
+@media only screen and (max-width: 768px) {
+    #gmap {
+        height: 300px;
+        width: 300px;
+    }
+}
+
+/* LAPTOP */
+@media only screen and (max-width: 1024px) {
+    #gmap {
+        height: 400px;
+        width: 400px;
+    }
+}
