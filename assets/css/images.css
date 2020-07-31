@@ -45,11 +45,19 @@
     transition-duration: 1s;
 }
 
+.button-boxes-padded {
+    border: 1px solid white;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    margin-bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.80);
+}
+
 /* HOVER */
 
 .img-box:hover {
     background-color: rgba(0, 0, 0, 0.10);
-    color: black;
     transition-duration: 1s;
 }
 
