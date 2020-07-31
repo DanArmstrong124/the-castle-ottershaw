@@ -40,6 +40,23 @@
     margin-left: 8.333333%;
 }
 
+.img-box {
+    color: white;
+    transition-duration: 1s;
+}
+
+/* HOVER */
+
+.img-box:hover {
+    background-color: rgba(0, 0, 0, 0.10);
+    color: black;
+    transition-duration: 1s;
+}
+
+
+
+/* MEDIA */
+
 @media only screen and (max-width: 320px) {
     .front-page-img {
         background: url('../img/index/frontpage.jpg'); 
@@ -54,7 +71,7 @@
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 769px) {
 
     .img-food-area {
         background: url('../img/index/food.jpg');
