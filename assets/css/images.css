@@ -54,6 +54,10 @@
     background-color: rgba(0, 0, 0, 0.80);
 }
 
+.padding-for-img-box {
+    padding-top: 250px;
+}
+
 /* HOVER */
 
 .img-box:hover {
