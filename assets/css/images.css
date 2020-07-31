@@ -50,7 +50,10 @@
 }
 
 .galleryimg {
-    color: red;
+    background: url('../img/index/drink.jpg');
+    background-position: center;
+    background-size: cover;
+    margin: 10px;
 }
 
 .button-boxes-padded {
