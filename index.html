@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
+    <!--STYLESHEETS-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-VhBcF/php0Z/P5ZxlxaEx1GwqTQVIBu4G4giRWxTKOCjTxsPFETUDdVL5B6vYvOt" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Cardo:wght@700&family=Cinzel&display=swap" rel="stylesheet">
@@ -15,8 +15,13 @@
     <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="stylesheet" href="assets/css/images.css">
     <link rel="stylesheet" href="assets/css/map.css">
+
+    <!--FAVICONS-->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <!--SCRIPTS-->
+
     <title>The Castle - Ottershaw - Home</title>
   </head>
   <body>
@@ -47,6 +52,9 @@
                     <a href="beersandwines.html"><button class="btn menu-buttons bg-none"><i class="fa fa-wine-bottle"></i> Beers & Wines</button></a>
                 </div>
                 <div class="col-xs-12">
+                    <a href="pubtour.html"><button class="btn menu-buttons bg-none"><i class="fa fa-eye"></i> Live Pub Tour</button></a>
+                </div>
+                <div class="col-xs-12">
                     <a href="about.html"><button class="btn menu-buttons bg-none"><i class="fa fa-info-circle"></i> About Us</button></a>
                 </div>
                 <div class="col-xs-12">
@@ -62,10 +70,9 @@
                 </div>
             </div>
     </section>
-
     <section class="parralax-imaging">
         <div class="front-page-img">
-            <div class="parralax background-fade front-page-img-cover">
+            <div class="parralax background-fade front-page-img-cover" style="border-bottom: 3px solid goldenrod;">
                 <div class="tac welcome-text-parr">
                     <div class="welcome cinzel" style="padding: 10px;"><i class="fad fa-chess" style="font-size: 30px;"></i> Welcome To The Castle <i class="fad fa-chess fa-flip-horizontal" style="font-size: 30px;"></i></div>
                     <div class="welcomesub cinzel">We look forward to welcoming you to The Castle.</div>
@@ -78,7 +85,8 @@
 
     <section class="thecastlemini" style="margin-top: 25px;">
         <div class="row">
-            <div class="col-12 col-md-6 minititle cinzel">
+            <div class="col-12 col-md-6 minititle cinzel tac">
+                <img src="assets/img/castleimg.png" alt="The Castle Logo" style="margin-right: auto; margin-left: auto; width: 100px;">
                 <h1 class="tac">The Castle</h1>
             </div>
             <div class="col-12 col-md-6 minidesc sans">
@@ -89,6 +97,8 @@ We are open all day every day for drinks. Our kitchen closes after lunch on Sund
             </div>
         </div>
     </section>
+
+    <hr>
 
     <section class="button-boxes">
 
@@ -117,6 +127,8 @@ We are open all day every day for drinks. Our kitchen closes after lunch on Sund
         </div>
 
     </section>
+
+    <hr>
 
     <section class="mapsandgallery" style="margin-bottom: 25px;">
 
@@ -159,12 +171,12 @@ We are open all day every day for drinks. Our kitchen closes after lunch on Sund
         </button>
       </div>
       <div class="modal-body">
-        With our new website, we have taken the time to introduce a live pub tour.<br>
+        With our new website, we have taken the time to introduce a live pub tour.<br><br>
         You can find this feature in the menu, or press 'Take me there!'
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <a href="pubtour.html"><button type="button" class="btn btn-primary">Take me there!</button></a>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+        <a href="pubtour.html"><button type="button" class="btn btn-warning"><i class="fa fa-eye"></i> Take me there!</button></a>
       </div>
     </div>
   </div>
@@ -175,11 +187,10 @@ We are open all day every day for drinks. Our kitchen closes after lunch on Sund
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  
     <script>
         $(document).ready(function(){
-            $("#liveviewmodal").modal('show');
             if(!localStorage.getItem("visted")){
+                $("#liveviewmodal").modal('show');
                 localStorage.setItem("visted",true);
             }
         });
