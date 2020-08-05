@@ -1,9 +1,11 @@
 MENU:
     <HR> Element missing on some menu items
 
-FORMSPREE SETUP
+ABOUT:
+    IMAGES MISSING
 
-
+MENU:
+    IMAGES MISSING
 
 
 
