@@ -110,6 +110,10 @@ p {
     background-color: black;
 }
 
+.btn-box-shadow:focus {
+    box-shadow: 0 0 0 0.2rem goldenrod !important;
+}
+
 /* SMALL PHONE */
 @media only screen and (max-width: 320px) {
         .welcome {
