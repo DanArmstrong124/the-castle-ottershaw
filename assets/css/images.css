@@ -27,7 +27,7 @@
 }
 
 .img-drink-area {
-    background: url('../img/index/drink.jpg');
+    background: url('../img/index/1.png');
     background-repeat: no-repeat;
     background-size: cover;
     margin-left: 8.333333%;
@@ -50,7 +50,31 @@
 }
 
 .galleryimg {
-    background: url('../img/index/drink.jpg');
+    background: url('../img/index/2.jpg');
+    background-position: center;
+    background-size: cover;
+    margin: 10px;
+    border: 2px solid #b49a69;
+}
+
+.galleryimg2 {
+    background: url('../img/index/3.jpg');
+    background-position: center;
+    background-size: cover;
+    margin: 10px;
+    border: 2px solid #b49a69;
+}
+
+.galleryimg3 {
+    background: url('../img/index/4.jpg');
+    background-position: center;
+    background-size: cover;
+    margin: 10px;
+    border: 2px solid #b49a69;
+}
+
+.galleryimg4 {
+    background: url('../img/index/5.jpg');
     background-position: center;
     background-size: cover;
     margin: 10px;
