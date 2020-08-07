@@ -1,12 +1,8 @@
-MENU:
-    <HR> Element missing on some menu items
-
 ABOUT:
     IMAGES MISSING
 
 MENU:
     IMAGES MISSING
-
 
 
 
