@@ -17,3 +17,17 @@
 .event-info {
 
 }
+
+/* LAPTOP */
+@media only screen and (min-width: 1024px) {
+    .event-graphic {
+        max-width: 670px;
+    }
+}
+
+/* DESKTOP */
+@media only screen and (min-width: 1440px) {
+    .event-graphic {
+        max-width: 950px;
+    }
+}
