@@ -2,9 +2,18 @@
     max-width: 500px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
     border: 2px solid #083947;
 }
 
 .event-graphic img {
     width: 100%;
+}
+
+.event-image {
+
+}
+
+.event-info {
+
 }
